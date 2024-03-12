@@ -1,6 +1,6 @@
 import java.util.Map;
 
-public class HashMap implements MapFactory {
+public class HashMapF implements MapFactoryIn {
 
     @Override
     public Map<String, Integer> createMap() {

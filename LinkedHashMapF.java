@@ -1,6 +1,6 @@
 import java.util.Map;
 
-public class LinkedHashMap implements MapFactory {
+public class LinkedHashMapF implements MapFactoryIn {
     @Override
     public Map<String, Integer> createMap() {
         return new LinkedHashMap<>();

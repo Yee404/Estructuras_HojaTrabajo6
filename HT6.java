@@ -38,6 +38,9 @@ public class HT6 {
             e.printStackTrace();
         }
 
+        MapFactoryC mapFactory = new MapFactoryC();
+        Map<String, String> map = mapFactory.getMap(0);
+
         Scanner sc = new Scanner(System.in);
         boolean go = true;
         int opcion = 0;

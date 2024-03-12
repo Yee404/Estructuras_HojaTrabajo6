@@ -1,6 +1,6 @@
 import java.util.Map;
 
-public class TreeMap implements MapFactory {
+public class TreeMapF implements MapFactoryIn {
     @Override
     public Map<String, Integer> createMap() {
         return new TreeMap<>();

@@ -1,5 +1,5 @@
 import java.util.Map;
 
-public interface MapFactory {
+public interface MapFactoryIn {
     Map<String, Integer> createMap();
 }
